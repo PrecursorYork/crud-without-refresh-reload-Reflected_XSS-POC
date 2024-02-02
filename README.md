@@ -8,7 +8,7 @@
   
   # Overview
 
-+ CRUD-without-refresh-reload Reflected XSS POC is susceptible to a significant security vulnerability that arises from insufficient protection on the 'username' & 'city' parameters in the fetch_data.php & add_user.php file. Attackers can inject malicious JavaScript code into websites, and when the victim user accidentally accesses this JavaScript code, they will be attacked.
++ CRUD-without-refresh-reload Reflected XSS POC is susceptible to a significant security vulnerability that arises from insufficient protection on the 'username' & 'city' parameters in the fetch_data.php & add_user.php file. Attackers can inject malicious JavaScript code into website databases, and when victim users extract and load this JavaScript code, they will be attacked.
   
   # Vulnerability Details
 
