@@ -20,7 +20,7 @@
 
 + # Description
 
-+ Due to the lack of proper input validation and purification for the 'username' & 'city' parameter, attackers can save malicious JavaScript code in the database by inputting it. When the victim accesses the database, malicious code will be loaded, causing the visitor to be attacked.
++ Due to the lack of proper input/output validation and purification for the 'username' & 'city' parameter, attackers can save malicious JavaScript code in the database by inputting it. When the victim accesses the database, malicious code will be loaded, causing the visitor to be attacked.
 
 # Proof of Concept (PoC) :
 
